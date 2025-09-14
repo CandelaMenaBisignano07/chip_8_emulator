@@ -1,0 +1,25 @@
+{
+  "name": "chip_8_emulator",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "dev": "npm run build && http-server -p 3000 -o",
+    "start": "npm run build && node dist/index.js",
+    "serve": "http-server -p 3000 -o",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "devDependencies": {
+    "http-server": "^14.1.1",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.9.2"
+  },
+  "dependencies": {
+    "@types/node": "^24.3.0"
+  }
+}
