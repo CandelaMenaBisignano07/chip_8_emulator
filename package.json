@@ -8,6 +8,7 @@
     "dev": "npm run build && http-server -p 3000 -o",
     "start": "npm run build && node dist/index.js",
     "serve": "http-server -p 3000 -o",
+    "vercel-build": "npm run build",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
